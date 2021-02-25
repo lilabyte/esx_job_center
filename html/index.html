@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="ui.css">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="general">
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <p class="author">RYBAK</p>
+                <p class="content">Wszyscy którzy uwielbiają przebywać na wodzie, oraz cenią sobie ciszę i spokój, powinni zainteresować się zarabianiem, poprzez wędkowanie. Nasi pracownicy zostają wyposażeni w odpowiedni strój oraz dostają w porcie własną łódź, którą mogą wypłynąć na ocean i zarzucić przynętę na zarobek!</p>
+                <p><btn class="button" label="RYBAKA" job="fisherman">WYBIERZ</btn></p>
+            </div>
+                
+            <div class="mySlides">
+                    <p class="author">RAFINER</p>
+                    <p class="content">Choć praca nie należy do najprostszych, to naszych pracowników złoto wynagradzamy! W naszym zespole mamy bardzo wielu doświadczonych ludzi, którzy chętnie przyjmą i wyszkolą młodszą krew! Zapewniamy odpowiednie odzienie, wskazujemy punkty wydobycia i uczymy wytworzenia pełnowartościowego oleju napędowego. Zadbaj z nami o lepszą jakość paliw wyspy!</p>
+                    <p><btn class="button" label="RAFINERA" job="fueler">WYBIERZ</btn></p>
+            </div>
+                
+            <div class="mySlides">
+                    <p class="author">GÓRNIK</p>
+                    <p class="content">Praca w warunkach odmiennych od tych, panujących na powierzchni. Osoby sprawne fizycznie i odporne psychiczne, zapraszamy do pracy przy cennych minerałach! Niekiedy praca bywa w ciężkich warunkach, jednakże ryzyko wynagradzamy srogą wypłatą. Najważniejsze są minerały, które uczymy wydobywać, oraz jak o nie dbać. To praca dla prawdziwych osiłków!</p>
+                    <p><btn class="button" label="GÓRNIKA" job="miner">WYBIERZ</btn></p>
+            </div>
+
+            <div class="mySlides">
+                    <p class="author">KRAWIEC</p>
+                    <p class="content">Często słyszysz od znajomych, że masz gust? A sprawdzałeś, czy masz dryg do maszyny? Poszukujemy projektantów mody, zapewniamy kursy niezbędne do wytwarzania tkanin. Wszystko robisz sam, a dzięki temu masz pewność, że zostanie to zrobione idealnie, tak jak chciałeś! Zadbajmy wspólnie o wygląd mieszkańców wyspy. Z nami świat jest piękniejszy!</p>
+                    <p><btn class="button" label="KRAWCA" job="tailor">WYBIERZ</btn></p>
+            </div>
+
+            <div class="mySlides">
+                    <p class="author">DRWAL</p>
+                    <p class="content">Uwielbiamy zapach drewna, co sprawia, że nasza praca jest jeszcze przyjemniejsza. Lubimy naturę, świeże powietrze i żadna praca fizyczna w takich warunkach nie jest nam straszna! Spędzamy dużo czasu przy kłodach, w tartaku i choć praca nie należy do najlżejszych - wszystko odbywa się w swobodnych, miłych warunkach. Nie wierzysz? Odwiedź nas i przekonaj się sam, jesteśmy przyjaźni i porządnie płacimy!</p>
+                    <p><btn class="button" label="DRWALA" job="lumberjack">WYBIERZ</btn></p>
+            </div>
+
+            <div class="mySlides">
+                    <p class="author">KURIER</p>
+                    <p class="content">Wszyscy którzy uwielbiają kontakt z ludźmi, oraz posiadają prawojazdy, powinni zainterestować się zarabianiem poprzez, dostarczanie paczek. Nasi pracownicy zostają wyposażeni w odpowiendi strój oraz dostają własny pojazd, którym dostarczają paczki do domów klientów!</p>
+                    <p><btn class="button"  label="KURIERA" job="kurier">WYBIERZ</btn></p>
+            </div>
+                
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+            </div>   
+        </div>
+                
+</body>
+</html>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js'></script>
+
+<script  src="ui.js"></script>
